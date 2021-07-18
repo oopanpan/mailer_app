@@ -25,7 +25,7 @@ class UsersController < ApplicationController
 
     respond_to do |format|
       if @user.save
-        UserMailer.with(user: @user).happy_email.deliver_later
+        UserMailer.with(user: @user).quote_email.deliver
         format.html { redirect_to @user, notice: "Success" }
         format.json { render :show, status: :created, location: @user }
       else
