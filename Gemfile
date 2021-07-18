@@ -60,3 +60,5 @@ gem "pg", "~> 1.2"
 gem "faker", "~> 2.18"
 
 gem "email_validator", "~> 2.2"
+
+gem "dotenv-rails", "~> 2.7"
