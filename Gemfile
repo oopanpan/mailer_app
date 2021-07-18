@@ -58,3 +58,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "pg", "~> 1.2"
 
 gem "faker", "~> 2.18"
+
+gem "email_validator", "~> 2.2"
