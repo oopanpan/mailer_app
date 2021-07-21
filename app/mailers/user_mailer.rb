@@ -1,5 +1,5 @@
 class UserMailer < ApplicationMailer
-    default from: ENV["EMAIL_USERNAME"]
+    default from: "hello@abc.com"
 
     def quote_email
         @user = params[:user]

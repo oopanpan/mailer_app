@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Objective
 
-Things you may want to cover:
+This is a repository for Multi-Factor Authentication study in ruby using Knowledge and Possession factors, password from a user and personal email account respectively. The goal is to have a log in system that only grant user access after entering a password and clicking a time-sensitive link from an email.
 
-* Ruby version
+## User Story
 
-* System dependencies
+Users can enter their username/email and password
 
-* Configuration
+Users will be prompted to check their registered email
 
-* Database creation
+Users will receive an email with a link to complete the log in process
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Users will be redirected to a page that indicates they're successfully logged in
