@@ -13,3 +13,11 @@ Users will be prompted to check their registered email
 Users will receive an email with a link to complete the log in process
 
 Users will be redirected to a page that indicates they're successfully logged in
+
+### Steps
+
+[X] sending email from the app
+
+[ ] encrypt time-sensitive token to be send with link
+
+[ ] decode
